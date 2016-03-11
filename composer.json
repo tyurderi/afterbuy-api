@@ -9,7 +9,8 @@
     "require": {
         "rmccue/requests": "^1.6",
         "twig/twig": "^1.24",
-        "nathanmac/parser": "^3.10"
+        "nathanmac/parser": "^3.10",
+        "tyurderi/console": "^1.0"
     },
     "license": "MIT",
     "autoload": {
