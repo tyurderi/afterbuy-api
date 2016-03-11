@@ -1,0 +1,16 @@
+<Products>
+    {% for product in products %}
+    <Product>
+        <ProductIdent>
+            <ProductInsert>{{ product.productInsert }}</ProductInsert>
+            <BaseProductType>{{ product.baseProductType }}</BaseProductType>
+            <ProductID>{{ product.productId }}</ProductID>
+            <Anr>{{ product.anr }}</Anr>
+            <EAN>{{ product.ean }}</EAN>
+        </ProductIdent>
+        {% for key, value in product.values %}
+        <{{ key }}>{{ value }}</{{ key }}>
+        {% endfor %}
+    </Product>
+    {% endfor %}
+</Products>
