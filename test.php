@@ -8,7 +8,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$authentication = new WCKZ\Afterbuy\Authentication('', '', '', '');
+$authentication = WCKZ\Afterbuy\Authentication::fromYAML('config.yaml');
 $afterbuy       = new WCKZ\Afterbuy\AfterbuyAPI($authentication);
 
 $request = $afterbuy->createRequest('GetShopProducts', array(
@@ -17,11 +17,3 @@ $request = $afterbuy->createRequest('GetShopProducts', array(
     'pageNumber'        => 1
 ));
 
-if($request->send())
-{
-    echo sizeof($request->getResponse()), PHP_EOL;
-}
-else
-{
-    echo $request->getError(), PHP_EOL;
-}
