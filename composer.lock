@@ -4,194 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ad7b7fa071c3696625b30ace53511aa8",
-    "content-hash": "9918ae229649cdb24406fee6a4be5a76",
+    "hash": "a9a249d04f4abf6c85d563e074284fc7",
+    "content-hash": "3f91921f5b518ca8a99e9672f0559157",
     "packages": [
         {
-            "name": "doctrine/inflector",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/inflector.git",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Inflector\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                }
-            ],
-            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
-            "homepage": "http://www.doctrine-project.org",
-            "keywords": [
-                "inflection",
-                "pluralize",
-                "singularize",
-                "string"
-            ],
-            "time": "2015-11-06 14:35:42"
-        },
-        {
-            "name": "illuminate/contracts",
-            "version": "v5.2.21",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/contracts.git",
-                "reference": "eea3cf7ce90651e067a914d16383b019da45fcb5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/eea3cf7ce90651e067a914d16383b019da45fcb5",
-                "reference": "eea3cf7ce90651e067a914d16383b019da45fcb5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Contracts\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                }
-            ],
-            "description": "The Illuminate Contracts package.",
-            "homepage": "http://laravel.com",
-            "time": "2016-02-22 09:18:57"
-        },
-        {
-            "name": "illuminate/support",
-            "version": "v5.2.21",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/support.git",
-                "reference": "6749fab3f3d38d8b15427536a8e7bbdc57497c9e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/6749fab3f3d38d8b15427536a8e7bbdc57497c9e",
-                "reference": "6749fab3f3d38d8b15427536a8e7bbdc57497c9e",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/inflector": "~1.0",
-                "ext-mbstring": "*",
-                "illuminate/contracts": "5.2.*",
-                "php": ">=5.5.9"
-            },
-            "suggest": {
-                "illuminate/filesystem": "Required to use the composer class (5.2.*).",
-                "jeremeamia/superclosure": "Required to be able to serialize closures (~2.2).",
-                "paragonie/random_compat": "Provides a compatible interface like PHP7's random_bytes() in PHP 5 projects (~1.1).",
-                "symfony/polyfill-php56": "Required to use the hash_equals function on PHP 5.5 (~1.0).",
-                "symfony/process": "Required to use the composer class (2.8.*|3.0.*).",
-                "symfony/var-dumper": "Improves the dd function (2.8.*|3.0.*)."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Illuminate\\Support\\": ""
-                },
-                "files": [
-                    "helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                }
-            ],
-            "description": "The Illuminate Support package.",
-            "homepage": "http://laravel.com",
-            "time": "2016-02-22 20:29:02"
-        },
-        {
             "name": "nathanmac/parser",
-            "version": "v3.10",
+            "version": "v3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nathanmac/Parser.git",
-                "reference": "5472cc6bae23b89e9a9764db8ff0dc475b7006e8"
+                "reference": "776ba4a2d23c0e7a12754c320bfcf52051652397"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nathanmac/Parser/zipball/5472cc6bae23b89e9a9764db8ff0dc475b7006e8",
-                "reference": "5472cc6bae23b89e9a9764db8ff0dc475b7006e8",
+                "url": "https://api.github.com/repos/nathanmac/Parser/zipball/776ba4a2d23c0e7a12754c320bfcf52051652397",
+                "reference": "776ba4a2d23c0e7a12754c320bfcf52051652397",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~5.0",
                 "php": ">=5.3.0",
-                "symfony/yaml": "~2.0"
+                "symfony/yaml": "~2.0|~3.0"
             },
             "require-dev": {
+                "illuminate/support": "~5.0",
                 "mockery/mockery": "0.9.3",
                 "phpunit/phpunit": "4.*",
                 "scrutinizer/ocular": "^1.1"
@@ -214,7 +49,7 @@
             "authors": [
                 {
                     "name": "Nathan Macnamara",
-                    "email": "hello@nathanmac.com"
+                    "email": "hola@nathanmac.com"
                 }
             ],
             "description": "Simple PHP Parser Utility Library for API Development",
@@ -225,7 +60,7 @@
                 "parser",
                 "xml"
             ],
-            "time": "2015-10-03 21:34:42"
+            "time": "2016-02-06 15:34:37"
         },
         {
             "name": "rmccue/requests",
@@ -277,77 +112,26 @@
             "time": "2014-05-18 04:59:02"
         },
         {
-            "name": "sabre/uri",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruux/sabre-uri.git",
-                "reference": "9012116434d84ef6e5e37a89dfdbfbe2204a8704"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fruux/sabre-uri/zipball/9012116434d84ef6e5e37a89dfdbfbe2204a8704",
-                "reference": "9012116434d84ef6e5e37a89dfdbfbe2204a8704",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.7"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*",
-                "sabre/cs": "~0.0.1"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/functions.php"
-                ],
-                "psr-4": {
-                    "Sabre\\Uri\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Functions for making sense out of URIs.",
-            "homepage": "http://sabre.io/uri/",
-            "keywords": [
-                "rfc3986",
-                "uri",
-                "url"
-            ],
-            "time": "2016-03-08 02:29:27"
-        },
-        {
             "name": "symfony/yaml",
-            "version": "v2.8.3",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "2a4ee40acb880c56f29fb1b8886e7ffe94f3b995"
+                "reference": "2884c26ce4c1d61aebf423a8b912950fe7c764de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/2a4ee40acb880c56f29fb1b8886e7ffe94f3b995",
-                "reference": "2a4ee40acb880c56f29fb1b8886e7ffe94f3b995",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/2884c26ce4c1d61aebf423a8b912950fe7c764de",
+                "reference": "2884c26ce4c1d61aebf423a8b912950fe7c764de",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -374,20 +158,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-02-23 07:41:20"
+            "time": "2016-06-29 05:41:56"
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.0",
+            "version": "v1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8"
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
-                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
                 "shasum": ""
             },
             "require": {
@@ -435,27 +219,30 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-25 21:22:18"
+            "time": "2016-05-30 09:11:59"
         },
         {
             "name": "tyurderi/console",
-            "version": "v1.0",
+            "version": "2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tyurderi/console.git",
-                "reference": "6dee2392a775ba6c584e7bbb81611336eb9a98ac"
+                "reference": "e3bdb6ad3a5507704d9cd6d38f015ae6042c4f14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tyurderi/console/zipball/6dee2392a775ba6c584e7bbb81611336eb9a98ac",
-                "reference": "6dee2392a775ba6c584e7bbb81611336eb9a98ac",
+                "url": "https://api.github.com/repos/tyurderi/console/zipball/e3bdb6ad3a5507704d9cd6d38f015ae6042c4f14",
+                "reference": "e3bdb6ad3a5507704d9cd6d38f015ae6042c4f14",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "WCKZ\\Console\\": "src/"
-                }
+                    "TM\\Console\\": "src/"
+                },
+                "files": [
+                    "src/Console.function.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -467,7 +254,7 @@
                     "email": "tyurderi@yahoo.de"
                 }
             ],
-            "time": "2016-03-11 13:38:55"
+            "time": "2016-04-20 07:29:36"
         }
     ],
     "packages-dev": [],
