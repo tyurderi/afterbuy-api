@@ -1,6 +1,6 @@
 <?php
 
-namespace WCKZ\Afterbuy;
+namespace TY\Afterbuy;
 
 class Authentication
 {
